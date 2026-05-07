@@ -41,5 +41,8 @@ The tool generates an HTML report with the following status indicators:
 ## ⚖️ License
 Distributed under the MIT License. See `LICENSE` for more information.
 
+### ☕ Support the Project
+If this tool has saved you time managing your SQL environment, consider supporting the project on [Patreon](https://www.patreon.com/AnilkumarSriram). Your support helps keep the project updated and free for everyone!
+
 ---
 **Developed by [Anil Sriram](https://github.com/anilsriramdev)**
