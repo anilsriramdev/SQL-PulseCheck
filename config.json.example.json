@@ -1,0 +1,24 @@
+{ 
+    "_Instructions": "InputSource options: 'SQL' (uses database inventory) or 'TXT' (uses ServerFile path).", 
+    "EmailSettings": { 
+        "SmtpServer": "smtp.yourdomain.com", 
+        "From": "monitoring@yourdomain.com", 
+        "To": "dba-team@yourdomain.com", 
+        "Cc": "it-alerts@yourdomain.com", 
+        "RetentionDays": 30 
+    }, 
+    "SQLSettings": { 
+        "InputSource": "TXT",  
+        "ServerFile": "C:\\Scripts\\SQLSentinel\\Servers.txt", 
+        "InventoryServer": "SQL-ADMIN-INSTANCE", 
+        "InventoryDatabase": "DBA_Inventory", 
+        "ServerListQuery": "SELECT MachineNameFQDN FROM dbo.ServerList WHERE IsActive = 1" 
+    }, 
+    "Logging": { 
+        "LogRotationDays": 7, 
+        "LogLevel": "Info" 
+    }, 
+    "Performance": { 
+        "MaxThreads": 50 
+    } 
+}
